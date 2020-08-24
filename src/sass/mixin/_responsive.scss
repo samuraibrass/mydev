@@ -1,0 +1,21 @@
+$pc: 1024px; // PC
+$tab: 959px; // タブレット
+$sp: 559px; // スマホ
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}

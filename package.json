@@ -1,0 +1,33 @@
+{
+  "name": "gulp-webpack-package",
+  "version": "1.0.0",
+  "description": "This is the Shogo`s Package which is using Gulp and webpack`s plugins",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "webpack --watch"
+  },
+  "author": "Shogo Ishii",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.12",
+    "css-declaration-sorter": "^5.1.2",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "jquery": "^3.5.1"
+  }
+}
